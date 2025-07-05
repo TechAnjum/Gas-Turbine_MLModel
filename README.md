@@ -44,30 +44,5 @@ Ambient Humidity (AH)
 
 Gas Turbine Energy Yield (GT)
 
-⚙️ Tech Stack
-Python
 
-Pandas & NumPy
 
-Matplotlib & Seaborn
-
-Scikit-learn
-
-Gradio (for UI)
-
-# 🚀 How to Run
-1. Clone the Repository
-
-git clone https://github.com/your-username/gas-turbine-ml.git
-cd gas-turbine-ml
-
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-3. Run the Notebook
-Open Gas_Turbine_MLModel.ipynb in Jupyter Notebook or VSCode to explore the model pipeline and visualizations.
-
-4. Launch Gradio App (Optional)
-# At the end of the notebook
-gr.Interface(fn=predict_function, inputs=[...], outputs=[...]).launch()
